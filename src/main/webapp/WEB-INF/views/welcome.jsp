@@ -94,5 +94,7 @@
     <c:forEach items="${mylist}" var="list">
         <a href="/people/${list.id}" class="list-link">${list.name}</a>
     </c:forEach>
+
+
 </div>
 </body>
